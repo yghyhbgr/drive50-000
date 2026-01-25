@@ -2,7 +2,7 @@ name: 清令牌号
 
 on:
   schedule:
-    - cron: '*/57 * * * *'  # 每周运行一次
+    - cron: '*/58 * * * *'  # 每周运行一次
   workflow_dispatch:  # 允许手动触发
 
 jobs:
